@@ -5,7 +5,7 @@ import RepoCard from '../components/RepoCard';
 
 const HomePage = () => {
 
-    const [search, setSearch] = useState('')
+    const [search, setSearch] = useState('Alemy75')
     const [dropdown, setDropdown] = useState(false)
 
     const debounced = useDebounce(search)
